@@ -10,10 +10,7 @@ namespace cocOS
     {
 
         
-        static string cevap = "whatsapp";
-        static string cevap1 = "no";
-        static string cevap2 = "yes";
-        static string cevap3 = "why?";
+        static string cevap = "";
 
 
 
@@ -33,8 +30,7 @@ namespace cocOS
 
 
 
-            while (cevap != "exit" || cevap1 != "exit" || cevap2 != "exit" || cevap3 != "exit")
-            {
+
                 cevap = Console.ReadLine();
 
                 if (cevap != "whatsapp")
@@ -48,9 +44,9 @@ namespace cocOS
 
                 }
 
-                cevap1 = Console.ReadLine();
+                cevap = Console.ReadLine();
 
-                if (cevap1 != "no")
+                if (cevap != "no")
                 {
                     Console.WriteLine("You can use simple answers for example: 'no' 'yes' 'why'. You got it?");
 
@@ -61,9 +57,9 @@ namespace cocOS
                     Console.WriteLine("Hmm, I thought so, too!");
                 }
 
-                cevap2 = Console.ReadLine();
+                cevap = Console.ReadLine();
 
-                if (cevap2 != "yes")
+                if (cevap != "yes")
                 {
                     Console.WriteLine("You can use simple answers for example: 'no' 'yes' 'why'. You got it?");
                 }
@@ -72,18 +68,33 @@ namespace cocOS
                 {
                     Console.WriteLine("Wow, I think you're crazy!");
                 }
-
-
-
-
-
-
-
-
-
-
-
-
+            int question = 1;
+            while(cevap != "exit")
+            {
+                if (question == 1)
+                {
+                    Console.WriteLine("Write Down 'exit' you dipshit");
+                    cevap = Console.ReadLine().ToLower();
+                    question++;
+                }
+                else if (question == 2)
+                {
+                    Console.WriteLine("Why you are not writing 'exit' you ...");
+                    cevap = Console.ReadLine().ToLower();
+                    question++;
+                }
+                else if (question == 3)
+                {
+                    Console.WriteLine("Please Write 'exit' im tired");
+                    cevap = Console.ReadLine().ToLower();
+                    question++;
+                }
+                else
+                {
+                    Console.WriteLine("Yes Finally I can Shut Myself Down What you gonna say about it");
+                    cevap = Console.ReadLine().ToLower();
+                    break;
+                }
             }
         }
     }

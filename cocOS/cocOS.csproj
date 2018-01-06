@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B4D5D79-12D5-42FD-9595-A9530541F672}</ProjectGuid>
+    <ProjectGuid>{C2744108-2D9F-4677-9C73-B6CC1716B028}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>cocOS</RootNamespace>
     <AssemblyName>cocOS</AssemblyName>

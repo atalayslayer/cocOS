@@ -1,0 +1,7 @@
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\bin\Debug\cocOS.exe.config
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\bin\Debug\cocOS.exe
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\bin\Debug\cocOS.pdb
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\obj\Debug\cocOS.csprojResolveAssemblyReference.cache
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\obj\Debug\cocOS.csproj.CoreCompileInputs.cache
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\obj\Debug\cocOS.exe
+C:\Users\Atalay\Desktop\Codes\cocOS\cocOS\obj\Debug\cocOS.pdb

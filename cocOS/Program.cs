@@ -9,8 +9,9 @@ namespace cocOS
     class Program
     {
 
-        
+
         static string cevap = "";
+        static bool whatsapp = false;
 
 
 
@@ -30,50 +31,50 @@ namespace cocOS
 
 
 
-
+            while (cevap != "exit")
+            {
                 cevap = Console.ReadLine();
-
-                if (cevap != "whatsapp")
+                if(cevap == "exit")
                 {
-                    Console.WriteLine("Hey niggah! Just whatsapp, okay!");
+                    break;
                 }
 
-                else
+                if (cevap != "whatsapp" && !whatsapp)
+                {
+                    Console.WriteLine("Hey niggah! Just whatsapp, okay!");
+                    whatsapp = true;
+                }
+
+                else if (cevap == "whatsapp")
                 {
                     Console.WriteLine("Hello Human! You Wanna Kill Yourself ha?");
 
                 }
 
-                cevap = Console.ReadLine();
-
-                if (cevap != "no")
+                else if (cevap != "no" && cevap != "yes" && whatsapp)
                 {
                     Console.WriteLine("You can use simple answers for example: 'no' 'yes' 'why'. You got it?");
 
                 }
 
-                else
+                else if (cevap == "no" && whatsapp)
                 {
                     Console.WriteLine("Hmm, I thought so, too!");
                 }
 
-                cevap = Console.ReadLine();
-
-                if (cevap != "yes")
-                {
-                    Console.WriteLine("You can use simple answers for example: 'no' 'yes' 'why'. You got it?");
-                }
-
-                else
+                else if (cevap == "yes" && whatsapp)
                 {
                     Console.WriteLine("Wow, I think you're crazy!");
                 }
+
+            }
             int question = 1;
-            while(cevap != "exit")
+            cevap = "";
+            while (cevap != "exit")
             {
                 if (question == 1)
                 {
-                    Console.WriteLine("Write Down 'exit' you dipshit");
+                    Console.WriteLine("Write Down 'exit' again you dipshit");
                     cevap = Console.ReadLine().ToLower();
                     question++;
                 }

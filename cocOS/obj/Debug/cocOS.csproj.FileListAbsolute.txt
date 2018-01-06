@@ -5,3 +5,10 @@ C:\Users\Atalay\source\repos\cocOS\cocOS\obj\Debug\cocOS.csproj.CoreCompileInput
 C:\Users\Atalay\source\repos\cocOS\cocOS\obj\Debug\cocOS.exe
 C:\Users\Atalay\source\repos\cocOS\cocOS\obj\Debug\cocOS.pdb
 C:\Users\Atalay\source\repos\cocOS\cocOS\obj\Debug\cocOS.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\bin\Debug\cocOS.exe.config
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\bin\Debug\cocOS.exe
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\bin\Debug\cocOS.pdb
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\obj\Debug\cocOS.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\obj\Debug\cocOS.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\obj\Debug\cocOS.exe
+C:\Users\Murat\Desktop\GitHub\github\cocOS\cocOS\obj\Debug\cocOS.pdb

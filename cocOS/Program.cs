@@ -47,7 +47,7 @@ namespace cocOS
                     whatsapp = true;
 
                 }
-                if (cevap != "whatsapp" && !whatsapp)
+                else if (cevap != "whatsapp" && !whatsapp)
                 {
                     Console.WriteLine("Hey niggah! Just whatsapp, okay!");
 

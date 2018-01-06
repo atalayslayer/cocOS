@@ -39,15 +39,17 @@ namespace cocOS
                     break;
                 }
 
+
+
+                if (cevap == "whatsapp" && !whatsapp)
+                {
+                    Console.WriteLine("Hello Human! You Wanna Kill Yourself ha?");
+                    whatsapp = true;
+
+                }
                 if (cevap != "whatsapp" && !whatsapp)
                 {
                     Console.WriteLine("Hey niggah! Just whatsapp, okay!");
-                    whatsapp = true;
-                }
-
-                else if (cevap == "whatsapp")
-                {
-                    Console.WriteLine("Hello Human! You Wanna Kill Yourself ha?");
 
                 }
 
